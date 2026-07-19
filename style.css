@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: #e8e2d4;
+    padding: 30px;
+    position: relative;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+.main{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;  
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.box-head{
+    padding: 10px 100px;
+    position: relative;
+    border: 1px solid #141414;
+    background: #f4ef4a;
+    color: #141414;
+    font-size: 30px;
+    box-shadow: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    border-radius: 40px;
+}
+
+
