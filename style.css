@@ -100,4 +100,133 @@ body{
 .option{
     margin: 8px;
 }
+.include p {
+    font-size: 18px;
+    color: #141414;
+}
+.submit button{
+    padding: 12px 20px;
+    font-size: 20px;
+    border-radius: 40px;
+    border: 1px solid #141414;
+    background-color: #f4ef4a;
+    color: #141414;
+    box-shadow: none;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    display: flex;
+    justify-content: center;
+}
+.submit button:hover{
+    background-color: #141414;
+    color: #f4ef4a;
+}
+.submit button:active{
+    transform: scale(0.98);
+    box-shadow: none;
+}
+.output{
+    width: 100%;
+    border: 1px solid #d8d2c2;
+    padding: 30px;
+    box-shadow: none;
+    height: 140px;
+    border-radius: 16px;
+    background: #f0ece0;
+}
+.output .outputtitle{
+    font-size: 18px;
+    color: #141414;
+}
+.output div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.output #ps{
+    border: 1px solid #d8d2c2;
+    width: 120%;
+    height: 50px;
+    font-size: 21px;
+    font-weight: bold;
+    background: #e8e2d4;
+    color: #141414;
+}
+.output button {
+    width: 40px;
+    height: 50px;
+    margin-left: 15px;
+    background-color: #f4ef4a;
+    border: 1px solid #141414;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.dots{
+    position: absolute;
+    top: 15%;
+    left: -35%;
+    width: 30%;
+}
+.dots3{
+    position: absolute;
+    top: 28%;
+    left: -35%;
+    width: 30%;
+}
+.curv{
+    position: absolute;
+    top: 35%;
+    left: 0%;
+    width: 80%;
+}
+.plus{
+    position: absolute;
+    top: 5%;
+    left: 120%;
+    width: 30%;
+}
+.plus3{
+    position: absolute;
+    top: 73%;
+    left: -25%;
+    width: 20%;
+}
+.plus4{
+    position: absolute;
+    top: 80%;
+    left: -38%;
+    width: 20%;
+}
+.plus5{
+    position: absolute;
+    top: 73%;
+    left: -38%;
+    width: 20%;
+}
+.zig{
+    position: absolute;
+    top: 40%;
+    left: 120%;
+    width: 30%;
+}
+.dots2{
+    position: absolute;
+    top: 25%;
+    left: 108%;
+    width: 40%;
+}
+.plus2{
+    position: absolute;
+    top: 80%;
+    left: -25%;
+    width: 20%;
+}
+.dots, .dots2, .dots3,
+.plus, .plus2, .plus3, .plus4, .plus5,
+.zig, .curv{
+    pointer-events: none;
+    z-index: -1;
+    position: absolute;
+}
+
 
