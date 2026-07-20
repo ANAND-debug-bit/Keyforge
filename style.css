@@ -34,5 +34,70 @@ body{
     letter-spacing: 1px;
     border-radius: 40px;
 }
-
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: stretch;
+    justify-content: center;
+    border: 1px solid #d8d2c2;
+    padding: 30px;
+    box-shadow: none;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 16px;
+    background: #f0ece0;
+}
+.card .len{
+    font-size: 14px;
+    border-bottom: 1px solid #141414;
+    color: #141414;
+}
+.card #passwordlen {
+    width: 100%;
+    border: 1px solid #141414;
+    height: 30px;
+    border-radius: 4px;
+    font-size: 20px;
+    background: #f0ece0;
+    color: #141414;
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.icon{
+    border: 1px solid #141414;
+    padding: 8px 12px;
+    font-weight: bold;
+    background: #f4ef4a;
+    color: #141414;
+    border-radius: 6px;
+}
+.text{
+    font-size: 20px;
+    font-weight: 600;
+    color: #141414;
+}
+.option input{
+    width: 20px;
+    height: 20px;
+    appearance: none;
+    cursor: pointer;
+    border: 1px solid #141414;
+    border-radius: 50%;
+}
+.option input:checked{
+    background-color: #f4ef4a;
+}
+.option{
+    margin: 8px;
+}
 
